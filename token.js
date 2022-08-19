@@ -1,1 +1,1 @@
-module.exports = require(__dirname + "/local-token.js") || process.env.token
+module.exports = process.env.token || require(__dirname + "/local-token.js")
