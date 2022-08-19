@@ -9,6 +9,8 @@ client.once("ready", () => {
 	console.log("[setup] discord.js client ready")
 })
 
+console.log(token)
+
 client.login(token)
 	.then(() => {
 		console.log("[setup] successfully logged in to discord api")
