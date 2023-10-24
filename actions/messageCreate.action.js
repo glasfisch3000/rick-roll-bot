@@ -1,6 +1,5 @@
 const { clientID } = require(__dirname + "/../ids.js")
 module.exports = async (client) => {
-  console.log("test")
   client.on("messageCreate", message => {
     console.log("[messageCreate] recieved message")
 
