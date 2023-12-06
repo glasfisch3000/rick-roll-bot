@@ -1,5 +1,13 @@
+# private data
 token.js
 ids.js
+
+# packages
 node_modules
+
+# useless macos shit
 .DS_Store
 */.DS_Store
+
+# logs
+log/*
