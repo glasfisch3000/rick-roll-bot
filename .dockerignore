@@ -1,0 +1,9 @@
+.dockerignore
+.git
+.gitattributes
+.github
+.gitignore
+docker-compose.yaml
+Dockerfile*
+LICENSE
+node_modules
